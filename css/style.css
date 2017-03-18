@@ -1,6 +1,9 @@
 
 /*------navbar-------*/
 #nav ul {
+   position: fixed;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 50;
     padding: 50;
@@ -30,6 +33,60 @@
     text-align: center;
     text-decoration: none;
 }
+
+/*-------header-----*/
+#header img {
+width: 200px;
+margin-left: 500px;
+margin-top: 150px;
+border-radius: 50%;
+}
+
+#header h1 {
+   display: block;
+   text-transform: uppercase;
+   font-weight: 500;
+   text-shadow: 1px 1px 3px red;
+   margin-left: 400px;
+}
+
+#header span {
+   display: block;
+   text-transform: uppercase;
+   font-weight: 800;
+   text-shadow: 1px 1px 3px red;
+   margin-left: 440px;
+   font-size: 30px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
