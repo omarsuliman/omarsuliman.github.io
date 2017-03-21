@@ -81,7 +81,7 @@ border-radius: 50%;
 /*----footer----*/
 footer h3 {
     color: red;
-    margin-left: 540px;
+    margin-left: 550px;
     padding-top: 20px;
     font-size: 30px;
 }
@@ -106,7 +106,10 @@ footer #contact #two {
 
 }
 
+footer #contact #three img {
+  border-radius: 3px;
 
+}
 
 
 
