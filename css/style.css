@@ -1,3 +1,8 @@
+/*----body-------*/
+body {
+        background-color: lightgreen;
+    }
+
 
 /*------navbar-------*/
 #nav ul {
@@ -23,6 +28,17 @@
     text-decoration: none;
 }
 
+#nav #re {
+    padding-left: 500px;
+    font-family: italic;
+    font-size: 20px;
+    float: right;
+    position: fixed;
+    top: 0px;
+    right:  0px;
+
+}
+
 #nav li a:hover {
     background-color: #111;
 }
@@ -37,7 +53,7 @@
 /*-------header-----*/
 #header img {
 width: 200px;
-margin-left: 500px;
+margin-left: 40%;
 margin-top: 150px;
 border-radius: 50%;
 }
@@ -45,27 +61,50 @@ border-radius: 50%;
 #header h1 {
    display: block;
    text-transform: uppercase;
-   font-weight: 500;
+   font-weight: 600;
    text-shadow: 1px 1px 3px red;
-   margin-left: 400px;
+   margin-left: 390px;
+   font-size: 40px;
 }
 
 #header span {
    display: block;
    text-transform: uppercase;
    font-weight: 800;
-   text-shadow: 1px 1px 3px red;
    margin-left: 440px;
-   font-size: 30px;   
+   font-size: 30px; 
+   color: red;
+   text-shadow: 2px 1px 3px black;  
 }
 
 
+/*----footer----*/
+footer h3 {
+    color: red;
+    margin-left: 540px;
+    padding-top: 20px;
+    font-size: 30px;
+}
 
+footer #contact{
+  padding-left: 550px;
+  padding-bottom: 50px;
 
+}
 
+footer {
+  background-color: #2F4F4F;
+}
 
+footer #contact #one {
+  padding-right:  30px;
 
+}
 
+footer #contact #two {
+  padding-right:  30px;
+
+}
 
 
 
