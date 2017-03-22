@@ -1,0 +1,44 @@
+body {
+        background-color: lightblue;
+    }
+
+
+/*------navbar-------*/
+#nav ul {
+   position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+#nav .nav-one {
+    color: red;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1{
+    padding: 20px;
+}

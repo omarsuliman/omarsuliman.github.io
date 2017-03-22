@@ -46,4 +46,37 @@ body {
 
 p {
     padding: 10px 10px 20px 10px;
+    font-size: 18px;
+}
+
+footer h3 {
+    color: red;
+    margin-left: 550px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+footer #contact{
+  padding-left: 550px;
+  padding-bottom: 50px;
+
+}
+
+footer {
+  background-color: #2F4F4F;
+}
+
+footer #contact #one {
+  padding-right:  30px;
+
+}
+
+footer #contact #two {
+  padding-right:  30px;
+
+}
+
+footer #contact #three img {
+  border-radius: 3px;
+
 }
