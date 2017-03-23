@@ -10,10 +10,10 @@ function one(){
 		    type: 'get',
 		    dataType: 'json',
 		    success: function(data){
-			$.each(data,function(i,n){
-				$('.result').append('<li><a href="'+data[i]+'">'+data[i].name+'</a></li>')
-			})
-		  }
+			    $.each(data,function(i,n){
+				  $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].name+'</a></li>')
+			    })
+		    }
 	    })
 	})
 };

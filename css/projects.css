@@ -39,12 +39,14 @@ body {
     text-decoration: none;
 }
 
-h1{
-    padding: 30px;
+#img {
+    padding: 50px 50px 50px 50px;
+
 }
 
 h3{
     padding: 20px;
+    float: left;
 }
 
 .result{
@@ -56,7 +58,10 @@ h3{
     padding: 20px;
 }
 #aSearch {
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 7px;
 }
 
 .txtSearch {
