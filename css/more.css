@@ -40,5 +40,19 @@ body {
 }
 
 h1{
-    padding: 20px;
+    padding: 30px;
+}
+
+#one {
+    padding: 20px 20px 20px 20px;
+    float: left;
+}
+
+#two {
+    padding: 20px 240px 20px 170px;
+    float: left;
+}
+
+#three {
+    padding: 20px 120px 20px 20px;
 }

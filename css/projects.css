@@ -67,3 +67,10 @@ h3{
 .txtSearch {
     padding: 20px;
 }
+
+#bSearch {
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
