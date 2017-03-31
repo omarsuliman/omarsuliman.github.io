@@ -6,6 +6,7 @@ $(document).ready(function(){
 })
 
 function one(){
+	// $('.result').html('<button>Load more</button>');
 	$('#aSearch').click(function(e){
 		$('.result').html('')
 		e.preventDefault();
@@ -18,6 +19,7 @@ function one(){
 			    	var d=new Date(data[i].created_at)
 				  $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].name+'<br>Created at: '+formatDate(d)+'</a></li>')
 				  // $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].created_at+'</a></li>')
+
 			    })
 		    }
 	    })

@@ -1,6 +1,6 @@
 /*----body-------*/
 body {
-        background-color: lightgreen;
+        /*background-color: lightgreen;*/
     }
 
 
@@ -55,7 +55,7 @@ body {
 width: 200px;
 margin-left: 40%;
 margin-top: 150px;
-border-radius: 50%;
+border-radius: 7px;
 }
 
 #header h1 {
@@ -111,9 +111,12 @@ footer #contact #three img {
 
 }
 
-
-
-
+‫‪@-webkit-keyframes‬‬ ‫‪myAnimation‬‬
+‫{‬
+‫‪0%‬‬ ‫};‪{background:red‬‬
+‫‪15%‬‬ ‫};‪{backgroung:green;width:150px;color:white‬‬
+‫‪50%‬‬ ‫};‪{height:350px‬‬
+‫‪100%‬‬ ‫};‪{background:yellow‬‬}
 
 
 

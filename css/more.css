@@ -39,20 +39,64 @@ body {
     text-decoration: none;
 }
 
-h1{
+/*---body-----*/
+header{
+    padding: 50px;
+}
+header div{
+    float: left;
+    /*padding-left: 40px;*/
+}
+
+header #two{
+    padding-left: 20px;
+
+}
+
+.main{
+    /*padding: 20px;*/
+    display: block;
+}
+
+.main #one{
+    padding: 20px;
+     display: block;
+}
+
+.main #two{
+    padding: 20px;
+ display: block;
+}
+
+.main #three{
+    padding: 20px;
+     display: block;
+}
+
+.re{
+    background-color: lightgreen;
+    /*margin: 20px;
+    padding-top:  20%;*/
+    border: solid 3px;
+    height: 500px;
     padding: 30px;
 }
 
-#one {
-    padding: 20px 20px 20px 20px;
-    float: left;
-}
 
-#two {
-    padding: 20px 240px 20px 170px;
-    float: left;
-}
 
-#three {
-    padding: 20px 120px 20px 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
