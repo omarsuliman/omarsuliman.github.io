@@ -1,6 +1,9 @@
 /*----body-------*/
 body {
         /*background-color: lightgreen;*/
+        /*background: url(../image/back.jpg);
+        background-position: right;
+        background-repeat: no-repeat;*/
     }
 
 
@@ -71,7 +74,7 @@ border-radius: 7px;
    display: block;
    text-transform: uppercase;
    font-weight: 800;
-   margin-left: 440px;
+   margin-left: 460px;
    font-size: 30px; 
    color: red;
    text-shadow: 2px 1px 3px black;  

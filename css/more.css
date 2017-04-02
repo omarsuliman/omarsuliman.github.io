@@ -1,5 +1,5 @@
 body {
-        background-color: lightblue;
+        /*background-color: #ff6666;*/
     }
 
 
@@ -58,34 +58,22 @@ header #two{
     display: block;
 }
 
-.main #one{
-    padding: 20px;
-     display: block;
+h1{
+  /*font-size: 20px;*/
+    font-family: 'Anton', sans-serif; 
+    padding-left: 40%; 
 }
 
-.main #two{
-    padding: 20px;
- display: block;
-}
-
-.main #three{
-    padding: 20px;
-     display: block;
-}
 
 .re{
-    background-color: lightgreen;
-    /*margin: 20px;
-    padding-top:  20%;*/
-    border: solid 3px;
-    height: 500px;
-    padding: 30px;
+   padding-left: 35%; 
 }
 
-
-
-
-
+.re ul li span{
+    font-family: 'Anton', sans-serif; 
+    font-size: 20px;
+    /*padding-top: 50px;*/
+}
 
 
 
