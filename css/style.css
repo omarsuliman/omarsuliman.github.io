@@ -69,8 +69,31 @@ footer #contact #three img {
 ‫‪100%‬‬ ‫};‪{background:yellow‬‬}
 
 
+/*.fa.fa-facebook-square.fa-2x{
+  padding-right: 20px;
+}*/
 
+.fa{
+  padding-right: 20px;
+}
 
+/*body{
+  background-image:
+   url(../image/back.jpg)
+   url(../image/ajaax.jpg);
+}*/
+
+body {
+    background: url(../image/back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1{
+  padding-left: 75px;
+}
 
 
 
