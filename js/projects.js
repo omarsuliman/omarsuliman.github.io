@@ -7,8 +7,8 @@ $(document).ready(function(){
 
 function one(){
 	// $('.result').html('<button>Load more</button>');
-	$('#aSearch').click(function(e){
-		$('.result').html('')
+	$('#current').click(function(e){
+		$('.panel-body').html('')
 		e.preventDefault();
 		$.ajax({
 			url: 'https://api.github.com/users/omarsuliman/repos?sort=created&per_page=5',
@@ -17,7 +17,7 @@ function one(){
 		    success: function(data){
 			    $.each(data,function(i,n){
 			    	var d=new Date(data[i].created_at)
-				  $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].name+'<br>Created at: '+formatDate(d)+'</a></li>')
+				  $('.panel-body').append('<li><a href="'+data[i].html_url+'">'+data[i].name+'<br>Created at: '+formatDate(d)+'</a></li>')
 				  // $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].created_at+'</a></li>')
 
 			    })
@@ -27,16 +27,21 @@ function one(){
 };
 
 function two() {
-	$( "#showr" ).click(function() {
-  $( "#pop" ).first().show( "fast", function showNext() {
-    $( this ).next( "#pop" ).show( "fast", showNext );
-  });
-});
+	$('.panel-body').html('')
+	$( "#favorite" ).click(function() {
+		$(".panel-body").hide();
+	 $("#pop li a").show();
  
-$( "#hidr" ).click(function() {
-  $( "#pop" ).hide( 1000 );
-});
-}
+// $( ".pop" ).click(function() {
+//   $( ".panel-body" ).hide( 1000 );
+// });
+})}
+
+
+
+
+
+
 
 
 function formatDate(date) {
@@ -50,18 +55,18 @@ function formatDate(date) {
   return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
 }
 
-function abc(){
-	$("#aSearch").click(function(){
-		$("#pop").hide(1000);
-		$(".result").show(1000);
+// function abc(){
+// 	$("#current").click(function(){
+// 		$(".pop").hide(1000);
+// 		$(".panel-body").show(1000);
 
-	})
-}
+// 	})
+// }
 
-function abcd(){
-	$("#showr").click(function(){
-		$(".result").hide(1000);
-		$("#pop").show(1000);
+// function abcd(){
+// 	$("#favorite").click(function(){
+// 		$(".panel-body").hide(1000);
+// 		$(".pop").show(1000);
 
-	})
-}
+// 	})
+// }

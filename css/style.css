@@ -1,87 +1,9 @@
 /*----body-------*/
-
-/*-------header-----*/
-#header img {
-width: 200px;
-margin-left: 40%;
-margin-top: 150px;
-border-radius: 7px;
-}
-
-#header h1 {
-   display: block;
-   text-transform: uppercase;
-   font-weight: 600;
-   text-shadow: 1px 1px 3px red;
-   margin-left: 390px;
-   font-size: 40px;
-}
-
-#header span {
-   display: block;
-   text-transform: uppercase;
-   font-weight: 800;
-   margin-left: 460px;
-   font-size: 30px; 
-   color: red;
-   text-shadow: 2px 1px 3px black;  
-}
-
-
-/*----footer----*/
-footer h3 {
-    color: red;
-    margin-left: 550px;
-    padding-top: 20px;
-    font-size: 30px;
-}
-
-footer #contact{
-  padding-left: 540px;
-  padding-bottom: 50px;
-
-}
-
-footer {
-  background-color: #2F4F4F;
-}
-
-footer #contact #one {
-  padding-right:  30px;
-
-}
-
-footer #contact #two {
-  padding-right:  30px;
-
-}
-
-footer #contact #three img {
-  border-radius: 3px;
-
-}
-
-‫‪@-webkit-keyframes‬‬ ‫‪myAnimation‬‬
-‫{‬
-‫‪0%‬‬ ‫};‪{background:red‬‬
-‫‪15%‬‬ ‫};‪{backgroung:green;width:150px;color:white‬‬
-‫‪50%‬‬ ‫};‪{height:350px‬‬
-‫‪100%‬‬ ‫};‪{background:yellow‬‬}
-
-
-/*.fa.fa-facebook-square.fa-2x{
-  padding-right: 20px;
-}*/
-
-.fa{
-  padding-right: 20px;
-}
-
-/*body{
+ 
+body{
   background-image:
    url(../image/back.jpg)
-   url(../image/ajaax.jpg);
-}*/
+}
 
 body {
     background: url(../image/back.jpg) no-repeat center center fixed;
@@ -93,6 +15,9 @@ body {
 
 h1{
   padding-left: 75px;
+}
+.fa{
+  padding-left: 15px;
 }
 
 

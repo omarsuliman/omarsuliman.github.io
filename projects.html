@@ -10,7 +10,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/projects.css" rel="stylesheet">
-    
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
+     <!-- <link href="css/style1.css" rel="stylesheet" type="text/css" /> -->
+     <!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
+     <link href="css/bootstrap.css" rel="stylesheet">
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,25 +53,33 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
   </nav>
-
-      <div id="img">
-        <img src="image/programmer.jpg">
-      </div>
-      <br>
-      <h3>My Repository</h3>
-      <!-- <input class="txtSearch" type="text" name="anyyyy"> -->
-      <button id="aSearch">Current</button>
-      <!-- <button id="bSearch">Favorite</button> -->
-      <button id="showr">Favorite</button>
-      <!-- <button id="hidr">FavoriteHide</button> -->
-      <div class="result">
-      </div>
-      <div id="pop" style="display: none;">
+<div class="container">
+    <div class="row text-center">
+      <h1 id="title">MY PROJECTS</h1><br>
+      <a class="btn btn-default" id="current">Current</a>
+      <a class="btn btn-default" id="favorite">Favorite</a>
+    </div><br><br>
+    <div class="row text-center">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div id="pop" style="dispy: none;">
         <li><a href="https://github.com/omarsuliman/CSS-Styling-re-coded-000">CSS-Styling-re-coded</a></li>
         <li><a href="https://github.com/omarsuliman/adding-responsive-features-re-coded-000">Adding-responsive-features-re-coded</a></li>
         <li><a href="https://github.com/omarsuliman/final-project">Final-project</a></li>
         <li><a href="https://github.com/omarsuliman/anagram-detector-re-coded-000">Anagram-detector-re-coded</a></li>
       </div>
+        </div>
+      </div>
+    </div>
+    <div class="error"></div>
+  </div>
+      
+      <!-- <div id="pop" style="display: none;">
+        <li><a href="https://github.com/omarsuliman/CSS-Styling-re-coded-000">CSS-Styling-re-coded</a></li>
+        <li><a href="https://github.com/omarsuliman/adding-responsive-features-re-coded-000">Adding-responsive-features-re-coded</a></li>
+        <li><a href="https://github.com/omarsuliman/final-project">Final-project</a></li>
+        <li><a href="https://github.com/omarsuliman/anagram-detector-re-coded-000">Anagram-detector-re-coded</a></li>
+      </div> -->
       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="js/projects.js"></script>
 
