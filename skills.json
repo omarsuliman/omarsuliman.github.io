@@ -1,3 +1,27 @@
 {
-	"omar":["HTML","CSS","Javascript","Ruby","Jquery","AJAX"]
+	"omar":[
+		{
+	      "name":"HTML","desc":"Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages."
+		},
+
+	    {
+		  "name":"CSS","desc":"The Cascading Style Sheets Specification ( CSS ) is a computer language that is used to write formatting instructions ( rules ). These rules tell a web browser how webpage content should 'look'— in terms of: layout. position, alignment, width, height, etc."
+	    },
+
+		{
+		  "name":"JAVASCRIPT","desc":"An object-oriented computer programming language commonly used to create interactive effects within web browsers."
+	    },
+
+	    {
+		  "name":"RUBY","desc":"Is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro Matz Matsumoto in Japan."
+	    },
+
+		{
+		  "name":"JQUERY","desc":"Is a concise and fast JavaScript library that can be used to simplify event handling, HTML document traversing, Ajax interactions and animation for speedy website development. jQuery simplifies the HTML's client-side scripting, thus simplifying Web 2.0 applications development."
+	    },
+
+		{
+		  "name":"AJAX","desc":"Is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh. The best definition I've read for Ajax is “the method of exchanging data with a server, and updating parts of a web page – without reloading the entire page."
+	    }	
+	]
 }

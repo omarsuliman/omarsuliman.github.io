@@ -5,13 +5,17 @@ $(document).ready(function(){
 	    type: 'get',
 	    dataType: 'json',
 	    success: function(data){
-	    	console.log(data)
-			var html= '';
+	    	console.log(data.items[0])
+	    	var vid = data.items[0].snippet.resourceId.videoId
+
+			var html= ''
 			 	html+= '<ul>'
 			 	$.each(data.items,function(i, item){
-			 	html+= '<br><li><a href="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'&list='+item.snippet.playlistId+'"><img src="'+item.snippet.thumbnails.high.url+'"</img><br><br></a><span>'+ item.snippet.title +'</span></li>';
+			 	html+= '<br><a href="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'&list='+item.snippet.playlistId+'"><img src="'+item.snippet.thumbnails.medium.url+'"</img><br><br></a><span>'+ item.snippet.title +'</span>';
+			 	html+= '</ul>'
 			});
-			$('.re').html(html);
+			$('.col-sm-6').html(html);
+			// $('.col-sm-6').html(html);
 	    }
 	})
 })
