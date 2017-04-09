@@ -1,14 +1,15 @@
 $(document).ready(function(){
 	one();
 	two();
-	abc();
-	abcd();
 })
 
 function one(){
 	// $('.result').html('<button>Load more</button>');
 	$('#current').click(function(e){
+
 		$('.panel-body').html('')
+		$(".panel-body").show();
+	 $("#pop").hide();
 		e.preventDefault();
 		$.ajax({
 			url: 'https://api.github.com/users/omarsuliman/repos?sort=created&per_page=5',
@@ -17,7 +18,7 @@ function one(){
 		    success: function(data){
 			    $.each(data,function(i,n){
 			    	var d=new Date(data[i].created_at)
-				  $('.panel-body').append('<li><a href="'+data[i].html_url+'">'+data[i].name+'<br>Created at: '+formatDate(d)+'</a></li>')
+				  $('.panel-body').append('<a href="'+data[i].html_url+'">'+data[i].name+'<br>Created at: '+formatDate(d)+'</a><br>')
 				  // $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].created_at+'</a></li>')
 
 			    })
@@ -27,10 +28,11 @@ function one(){
 };
 
 function two() {
-	$('.panel-body').html('')
+	// $('.panel-body').html('')
 	$( "#favorite" ).click(function() {
 		$(".panel-body").hide();
-	 $("#pop li a").show();
+	 // $("#pop li a").show();
+	 $("#pop").show();
  
 // $( ".pop" ).click(function() {
 //   $( ".panel-body" ).hide( 1000 );

@@ -2,28 +2,85 @@
 
 
 .container{
-    width:100%;margin: auto
+    width:65%;margin: auto
 }
 .container .panel{
-    box-shadow:2px 2px 25px #606060
+    box-shadow:2px 2px 15px #606060
 }
 .container .panel-body a{
-    color:black;font-size:20px;
+    color:black;
+    font-size:20px;
     font-family: monospace;
+    text-transform: capitalize;
 
 }
 .container .panel-body span{
-    display:block;margin-bottom:10px
+    display:block;
+    margin-bottom:10px
 }
 .container .panel-body li{
      list-style-type: none;
 }
 
-#pop li a {
-    color: red;
+.container #pop a{
+    color:black;
+    font-size:20px;
+    font-family: monospace;
+
 }
 
- 
+@media screen and (max-width: 767px) {
+    .container .panel-body a {
+        font-size: 0.9em;
+    }
+}
 
+/* sm */
+@media screen and (min-width: 768px) {
+    .container .panel-body a {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .container .panel-body a {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .container .panel-body a {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container #pop a {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    .container #pop a {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .container #pop a {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .container #pop a {
+        font-size: 1.3em;
+    }
+}
 
 
