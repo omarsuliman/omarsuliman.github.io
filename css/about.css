@@ -1,0 +1,48 @@
+.header h3{
+    color: red;
+    background-color: #C0C0C0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 0px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: blue;
+ }
+ #social-tw:hover {
+     color: black;
+ }
+ #social-gp:hover {
+     color: red;
+ }
+ #social-em:hover {
+     color: #FFFF00;
+ }
+
+
+#contact-me{
+  color: red;
+  /*margin-left: -20px;*/
+}
