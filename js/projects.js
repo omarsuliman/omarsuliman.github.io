@@ -1,14 +1,12 @@
 $(document).ready(function(){
-	one();
-	two();
+	GetDate();
+	GetFavoriteData();
 })
 
-function one(){
-	// $('.result').html('<button>Load more</button>');
+function GetDate(){
 	$('#current').click(function(e){
-
-		$('.panel-body').html('')
-		$(".panel-body").show();
+	 $('.panel-body').html('')
+	 $(".panel-body").show();
 	 $("#pop").hide();
 		e.preventDefault();
 		$.ajax({
@@ -18,7 +16,7 @@ function one(){
 		    success: function(data){
 			    $.each(data,function(i,n){
 			    	var d=new Date(data[i].created_at)
-				  $('.panel-body').append('<a href="'+data[i].html_url+'">'+data[i].name+'<br>Created at: '+formatDate(d)+'</a><br>')
+				  $('.panel-body').append('<a href="'+data[i].html_url+'">'+data[i].name+'<br><i>Created at: '+formatDate(d)+'</a></i><br><hr>')
 				  // $('.result').append('<li><a href="'+data[i].html_url+'">'+data[i].created_at+'</a></li>')
 
 			    })
@@ -27,24 +25,12 @@ function one(){
 	})
 };
 
-function two() {
-	// $('.panel-body').html('')
+function GetFavoriteData() {
 	$( "#favorite" ).click(function() {
-		$(".panel-body").hide();
-	 // $("#pop li a").show();
+	 $(".panel-body").hide();
 	 $("#pop").show();
- 
-// $( ".pop" ).click(function() {
-//   $( ".panel-body" ).hide( 1000 );
-// });
-})}
-
-
-
-
-
-
-
+    });
+}
 
 function formatDate(date) {
   var hours = date.getHours();
@@ -57,18 +43,3 @@ function formatDate(date) {
   return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
 }
 
-// function abc(){
-// 	$("#current").click(function(){
-// 		$(".pop").hide(1000);
-// 		$(".panel-body").show(1000);
-
-// 	})
-// }
-
-// function abcd(){
-// 	$("#favorite").click(function(){
-// 		$(".panel-body").hide(1000);
-// 		$(".pop").show(1000);
-
-// 	})
-// }

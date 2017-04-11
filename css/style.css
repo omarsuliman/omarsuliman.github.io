@@ -76,16 +76,12 @@ h1{
 
 .header h3{
     color: red;
-    background-color: white;
+    background-color: #C0C0C0;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px 0px 0px 0px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
-/*border-top-right-radius: 1em 3em;*/
-/*border-bottom-right-radius: 4em 0.5em;*/
-/*border-bottom-left-radius: 1em 3em;*/
-
 }
 
 
