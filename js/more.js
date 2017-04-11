@@ -8,19 +8,18 @@ $(document).ready(function(){
 	    	// console.log(data.items[0])
 
 			var html= ''
-			    html+='<div class="embed-responsive embed-responsive-4by3">'
-			 	html+= '<ul>'
+			    // html+='<div class="embed-responsive embed-responsive-4by3">'
 			 	$.each(data.items,function(i, item){
 			 		console.log(item)
 
                 html+='<div>'
-                html+='<br><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/'+item.snippet.resourceId.videoId+'" frameborder="0" allowfullscreen></iframe>'
-                // html+='<h3>'+item.snippet.title+'</h3>'
-                html+='<i class="fa fa-plus-square">'+item.snippet.title+'</i>'
-			 	html+= '</ul>'
+                html+='<div class="embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/'+item.snippet.resourceId.videoId+'" frameborder="0" allowfullscreen></iframe></div>'
+                html+='<h3>'+item.snippet.title+'</h3>'
+                // html+='<p>'+item.snippet.title+'</p>'
 			 	html+='</div>'
-			});
-			$('.col-sm-6').html(html);
+			}); 
+                // html+= '</div>'
+			$('#videos').html(html);
 			// $('.col-sm-6').html(html);
 	    }
 	})
