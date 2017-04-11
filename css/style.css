@@ -74,6 +74,20 @@ h1{
   margin-left: -30px;
 }
 
+.header h3{
+    color: red;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 0px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+/*border-top-right-radius: 1em 3em;*/
+/*border-bottom-right-radius: 4em 0.5em;*/
+/*border-bottom-left-radius: 1em 3em;*/
+
+}
+
 
 
 
